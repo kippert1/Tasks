@@ -1,1 +1,17 @@
+/* Layout */
 .md-grid { max-width: 1200px; }
+
+/* Header: modern gradient instead of flat color */
+.md-header {
+  background: linear-gradient(90deg, #111827, #1f2937 45%, #0f172a);
+}
+
+/* Slightly nicer header shadow */
+.md-header, .md-tabs {
+  box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+/* Cards: a bit more “product” feel */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 16px;
+}

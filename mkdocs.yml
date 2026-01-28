@@ -4,19 +4,31 @@ repo_url: https://github.com/kippert1/Tasks
 repo_name: kippert1/Tasks
 
 nav:
+repo_url: https://github.com/kippert1/Tasks
+repo_name: kippert1/Tasks
+edit_uri: edit/main/docs/
+
   - Home: index.md
 
 theme:
   name: material
   language: en
 
+  font:
+    text: Inter
+    code: JetBrains Mono
+
   palette:
     - scheme: default
+      primary: indigo
+      accent: cyan
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
     - scheme: slate
+      primary: indigo
+      accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
