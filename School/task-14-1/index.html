@@ -9,6 +9,8 @@
       
       
       
+        <link rel="prev" href="../..">
+      
       
       
         
@@ -19,7 +21,7 @@
     
     
       
-        <title>Task 14 1 - Math Tasks</title>
+        <title>Task 14.1 - Math Tasks</title>
       
     
     
@@ -103,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Task 14 1
+              Task 14.1
             
           </span>
         </div>
@@ -233,11 +235,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../school/task-14-1.md" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -325,26 +329,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -362,7 +371,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -377,10 +386,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../school/task-14-1.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -396,6 +412,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -444,7 +461,7 @@
   
 
 
-  <h1>Task 14 1</h1>
+  <h1>Task 14.1</h1>
 
 <p>Значение арифметического выражения <span class="arithmatex">\(6^{260}+6^{160}+6^{60}-x\)</span>, где <span class="arithmatex">\(x\)</span> — целое положительное число, не превышающее <span class="arithmatex">\(2030\)</span>, записали в <span class="arithmatex">\(6\)</span>-ричной системе счисления. Определите наименьшее значение <span class="arithmatex">\(x\)</span>, при котором количество нулей в <span class="arithmatex">\(6\)</span>-ричной записи числа, являющегося значением данного арифметического выражения, равно <span class="arithmatex">\(202\)</span>. В ответе запишите это число в десятичной системе счисления.</p>
 <div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2031</span><span class="p">):</span>
