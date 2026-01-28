@@ -8,10 +8,7 @@
 
 # Math Tasks
 
-A clean collection of problems, solutions, and short Python checks.
-
-[Start](number-systems/){: .md-button .md-button--primary }
-[All pages](./){: .md-button }
+- [Task 14.1](school/task-14-1.md)
 
 ---
 
