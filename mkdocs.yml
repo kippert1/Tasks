@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - School:
-      - Task 14.1: School/task-14-1.md
+      - Task 14.1: school/task-14-1.md
 
 theme:
   name: material
